@@ -1,0 +1,28 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .wrapper {
+            width: 420px;
+            button {
+                width: 100%;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        .action {
+            margin-top: 48px;
+        }
+    }
+}
